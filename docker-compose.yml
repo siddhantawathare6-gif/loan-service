@@ -1,0 +1,10 @@
+services:
+  loan:
+    image: "siddhant9960/loan-service:0.1"
+    container_name: loan-ms
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
