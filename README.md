@@ -4,3 +4,5 @@ https://github.com/siddhantawathare6-gif/loan-service/pull/1
 https://github.com/siddhantawathare6-gif/loan-service/pull/2
 
 create profile concept https://github.com/siddhantawathare6-gif/loan-service/pull/3
+
+introduced config-server https://github.com/siddhantawathare6-gif/loan-service/pull/4
