@@ -8,22 +8,14 @@ spring:
   config:
     import: "optional:configserver:http://localhost:8071/"
   datasource:
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password:
-  h2:
-    console:
-      enabled: true
+    url: jdbc:mysql://localhost:3307/loandb
+    username: root
+    password: system@123
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: create
     show-sql: true
-  rabbitmq:
-    host: "localhost"
-    port: 5672
-    username: "guest"
-    password: "guest"
+  sql:
+    init:
+      mode: ALWAYS
 
 management:
   endpoints:
