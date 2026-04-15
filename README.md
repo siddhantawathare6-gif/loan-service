@@ -10,3 +10,5 @@ introduced config-server https://github.com/siddhantawathare6-gif/loan-service/p
 added dependency and added mq credential in app.yml https://github.com/siddhantawathare6-gif/loan-service/pull/5
 
 added mysql https://github.com/siddhantawathare6-gif/loan-service/pull/6
+
+added eureka client https://github.com/siddhantawathare6-gif/loan-service/pull/7
