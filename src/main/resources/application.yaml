@@ -8,8 +8,8 @@ spring:
   config:
     import: "optional:configserver:http://localhost:8071/"
   datasource:
-#    url: jdbc:mysql://localhost:3307/loandb (just to test eureka, i changed port number, using docker it should run on different port i.e 3308)
-    url: jdbc:mysql://localhost:3306/loandb
+#    url: jdbc:mysql://localhost:3307/loandb  # (just to test eureka, i changed port number, using docker it should run on different port i.e 3308)
+    url: jdbc:mysql://localhost:3306/loandb  #(checkout this property when u r not using docker)
     username: root
     password: system@123
   jpa:
@@ -45,4 +45,10 @@ info:
     name: loan
     description: "EasyBank loan application"
     version: 1.0.0
+
+logging:
+  level:
+    com:
+      loan:
+        gateway: debug
 
